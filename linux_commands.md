@@ -27,7 +27,7 @@ usermod -g manager rob
 3.
 vim /etc/passwd
 and edit max:x:1003:1005::/home/max:/bin/bash
-to max:x:1003:1005::/home/max:/bin/flase
+to max:x:1003:1005::/home/max:/bin/false
 sudo chage bob
 //set password expiration warning to 30 days
 sudo chage max
